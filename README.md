@@ -74,8 +74,13 @@
 ![image](https://github.com/user-attachments/assets/4d8e6153-3122-43a6-89ab-9f5d84deccce)
 
 
-28. **Create a new VM** (e.g., VirtualBox/Cloud instance), add a user to the `sudoers` group, and run `apt update && apt upgrade`.  
-29. **Generate an SSH key pair** using `ssh-keygen`.  
-30. **Copy your public key** to the remote server:  
-31. **SSH into the server** and verify with `hostname`.  
-32. **Transfer the archived file** (e.g., `archive.tar.gz`) to the remote server using ssh copy way (don’t copy/paste >>> you have to search)
+28. **Create a new VM** (e.g., VirtualBox/Cloud instance), add a user to the `sudoers` group, and run `apt update && apt upgrade`.
+![image](https://github.com/user-attachments/assets/8ed58bef-e73b-411b-afdd-512659e32beb)
+ 
+30. **Generate an SSH key pair** using `ssh-keygen`.
+![image](https://github.com/user-attachments/assets/4fb55c64-ac92-4fb9-9d49-bf2375d2317a)
+  
+32. **Copy your public key** to the remote server:
+    
+34. **SSH into the server** and verify with `hostname`.  
+35. **Transfer the archived file** (e.g., `archive.tar.gz`) to the remote server using ssh copy way (don’t copy/paste >>> you have to search)
